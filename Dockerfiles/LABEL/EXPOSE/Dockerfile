@@ -1,2 +1,3 @@
 FROM almalinux
 EXPOSE 8080
+EXPOSE 8012/udp
