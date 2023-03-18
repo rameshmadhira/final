@@ -1,4 +1,4 @@
 FROM almalinux
 RUN yum install nginx -y 
 RUN rm -f /usr/shared/nginx/html/*
-COPY README /usr/shared/nginx/html
+COPY home /usr/shared/nginx/html
