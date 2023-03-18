@@ -1,0 +1,1 @@
+## there is no functinality for this expose. it used to expose the port/prtocal for image and container
