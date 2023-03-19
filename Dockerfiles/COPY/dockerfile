@@ -1,4 +1,4 @@
 FROM almalinux
 RUN yum install nginx -y 
-RUN rm -rf /usr/shared/nginx/html/index.html
-COPY free /usr/shared/nginx/html
+RUN rm -rf /usr/share/nginx/html/index.html
+COPY projection_template_6890628 /usr/shared/nginx/html
