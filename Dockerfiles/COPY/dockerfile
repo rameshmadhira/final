@@ -1,4 +1,4 @@
 FROM almalinux
 RUN yum install nginx -y 
-RUN rm -f /usr/shared/nginx/html/*
-COPY qi.html /usr/shared/nginx/html
+RUN rm -f /usr/shared/nginx/html/iindex.html
+COPY free /usr/shared/nginx/html
